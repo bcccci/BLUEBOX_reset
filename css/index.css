@@ -1,0 +1,105 @@
+/*content开始*/
+.content .wrapper{
+    width: 1063px;
+}
+.content{
+    height: 460px;
+    background: #31333e;
+}
+.content .photo{
+    height: 460px;
+}
+.content .photo div{
+    float: left;
+}
+.content .prev{
+    position: relative;
+    top:45%;
+    left: 30px;
+}
+.content .next{
+    position: relative;
+    top:45%;
+    right: 30px;
+}
+/*content结束*/
+/*more开始*/
+.more {
+    height: 492px;
+}
+.read-more{
+    width: 334px;
+    height: 492px;
+    float: left;
+}
+.more-more h1{
+    font-size: 30px;
+    color: #626262;
+    text-indent: 50px;
+    margin: 30px 0;
+}
+.more-more img{
+    margin: 10px 80px;
+}
+.more-more p{
+    display: block;
+    width: 290px;
+    height: 126px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2a2e39
+}
+.more-more a{
+    margin: 10px 90px;
+    color: #00aeff;
+}
+/*more结束*/
+/*works开始*/
+.works {
+    height: 500px;
+    background: #e2e7ed;
+}
+.works h1{
+    font-size: 30px;
+    color: #626262;
+    padding: 20px 0;
+}
+.works li{
+    float: left;
+}
+.works img{
+    vertical-align:bottom;
+}
+/*works结束*/
+/*clients开始*/
+.clients{
+    height: 154px;
+}
+.clients .wrapper{
+    margin: 0 auto;
+}
+.clients h1{
+    font-size: 30px;
+    color: #626262;
+    margin: 10px 0;
+}
+.clients div{
+
+}
+.clients .left{
+    float: left;
+    width: 30px;
+    height: 50px;
+    margin: 20px 0;
+    padding: 0 15px;
+    background: url("../img/prev.png") no-repeat 0;
+}
+.clients .right{
+    float: right;
+    width: 30px;
+    height: 50px;
+    margin: 20px 0;
+    background: url("../img/next.png") no-repeat 0;
+}
+/*clients结束*/
