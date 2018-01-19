@@ -1,0 +1,83 @@
+
+/*css重置开始*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    bottom: 0;
+}
+input,button{
+    outline: none;
+    text-indent: 10px;
+}
+/*css重置结束*/
+/*warpper开始*/
+.wrapper{
+    width: 1004px;
+    margin: 0 auto;
+}
+/*warpper结束*/
+/*header开始*/
+.wrapper{
+    height: 50px;
+    margin: 35px auto;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 189px;
+    height: 50px;
+}
+.search{
+     float: right;
+}
+.nav{
+    float: right;
+    margin: 15px 0;
+}
+.nav li{
+    float: left;
+}
+.nav li:after{
+    content: '|';
+    margin: 0 25px;
+}
+.nav li a{
+    color: #626262;
+}
+.nav li a:hover{
+    color: #00aeff;
+}
+.search{
+    margin: 10px 0;
+}
+.search input{
+    width: 80px;
+    height: 20px;
+    border: none;
+    padding: 5px 10px;
+    background: #f1f3f6;
+    color: #a3a3a3;
+}
+.search button{
+    float: right;
+    width: 32px;
+    height: 30px;
+    border: none;
+    background: #f1f3f6 url("../img/spirit.png") no-repeat 0 0;
+}
+.nav .last:after{
+    content: '';
+}
+/*header结束*/
